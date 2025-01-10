@@ -1,7 +1,7 @@
-import Home from './components/Home';
+import Home from './Home';
 
 function App() {
-  return (
+  return ( 
     <Home/>
   )
 }
