@@ -5,20 +5,25 @@ const Projects = () => (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             {
-              title: 'Manufacturing ERP',
-              description: 'Streamlined production processes for a leading manufacturer',
+              title: 'Logistics Management',
+              description: 'Managed logistics operations with custom ERPNext modules',
               tech: ['ERPNext', 'Custom Modules', 'API Integration']
             },
             {
-              title: 'Retail Management',
-              description: 'Integrated POS system with inventory management',
-              tech: ['ERPNext', 'E-commerce', 'POS']
+              title: 'HR & Payroll System with Biometrics',
+              description: 'Integrated HR and payroll system with biometric attendance',
+              tech: ['ERPNext', 'HR', 'Payroll', 'Biometrics']
             },
             {
-              title: 'Healthcare Solution',
-              description: 'Patient management system with billing integration',
-              tech: ['ERPNext', 'Healthcare Module', 'Custom Reports']
-            }
+              title: 'Retail Management System',
+              description: 'Developed a custom retail management system for a chain of stores',
+              tech: ['ERPNext', 'Sales', 'Custom Reports']
+            },
+            {
+                title: 'KSA ZATCA Integration - Phase 1 & 2',
+                description: 'Integrated ERPNext with KSA ZATCA for VAT compliance',
+                tech: ['ERPNext', 'Tax', 'Custom Reports']
+              }
           ].map((project, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
